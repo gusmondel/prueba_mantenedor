@@ -1,0 +1,204 @@
+<html>
+<head>
+
+<script language="javascript" type="text/javascript">
+function dropdownlist(listindex)
+{
+
+document.formname.subcategory.options.length = 0;
+
+switch (listindex)
+{
+    case "acreencias bancarias" :
+        break;
+
+    case "Ayuda" :
+        document.formname.subcategory.options[0]=new Option("Problemas con Cajeros","value2.1");
+        document.formname.subcategory.options[1]=new Option("Problemas con Cheques","value2.2");
+        document.formname.subcategory.options[2]=new Option("Problemas con Cobranzas","value2.3");
+        document.formname.subcategory.options[2]=new Option("Problemas con Portal","value2.3");
+        document.formname.subcategory.options[2]=new Option("Problemas con Tarjetas","value2.3");
+        break;
+
+    case "Canales de Atención" :
+        document.formname.subcategory.options[0]=new Option("APP","value3.1");
+        document.formname.subcategory.options[1]=new Option("Cajeros","value3.2");
+        document.formname.subcategory.options[2]=new Option("Chat","value3.3");
+        document.formname.subcategory.options[2]=new Option("Contact Center","value3.3");
+        document.formname.subcategory.options[2]=new Option("Ejecutivo","value3.3");
+        document.formname.subcategory.options[2]=new Option("Portal Office Banking","value3.3");
+        document.formname.subcategory.options[2]=new Option("Portal Santande","value3.3");
+        document.formname.subcategory.options[2]=new Option("Sucursales","value3.3");
+        break;
+    case "Cheques" :
+        document.formname.subcategory.options[0]=new Option("Cobrar","value3.1");
+        document.formname.subcategory.options[1]=new Option("Emitir","value3.2");
+        document.formname.subcategory.options[2]=new Option("Chat","value3.3");
+        document.formname.subcategory.options[2]=new Option("Problemas con Cheques","value3.3");
+        break;
+
+    case "Claves" :
+        document.formname.subcategory.options[1]=new Option("Clave 3.0","value3.2");
+        document.formname.subcategory.options[2]=new Option("Clave Web","value3.3");
+        document.formname.subcategory.options[2]=new Option("PinPass","value3.3");
+        document.formname.subcategory.options[2]=new Option("Santander Pass","value3.3");
+        document.formname.subcategory.options[2]=new Option("SúperClave","value3.3");
+        break;
+
+    case "Cobranzas" :
+        document.formname.subcategory.options[0]=new Option("Boletín Comercial","value3.1");
+        document.formname.subcategory.options[1]=new Option("Pago deuda","value3.2");
+        document.formname.subcategory.options[2]=new Option("Recargos","value3.3");
+        document.formname.subcategory.options[2]=new Option("Renegociar deuda","value3.3");
+        break;
+
+    case "Credencial Virtual" :
+        break;
+    case "Crédito Hipotecario" :
+        document.formname.subcategory.options[0]=new Option("Alzamiento","value3.1");
+        document.formname.subcategory.options[1]=new Option("Beneficios Tributarios","value3.2");
+        document.formname.subcategory.options[2]=new Option("Funcionamiento Crédito Hipotecario","value3.3");
+        document.formname.subcategory.options[2]=new Option("Pagar Dividendo","value3.3");
+        document.formname.subcategory.options[2]=new Option("Quiero un Crédito Hipotecario","value3.3");
+        break;
+
+    case "Créditos" :
+        document.formname.subcategory.options[0]=new Option("Crédito Consumo","value3.1");
+        document.formname.subcategory.options[1]=new Option("Créditos para Empresa","value3.2");
+        break;
+
+    case "Cuenta Corriente" :
+        document.formname.subcategory.options[0]=new Option("Funcionamiento Cuenta/Plan","value3.1");
+        document.formname.subcategory.options[1]=new Option("Hazte Cliente En Línea","value3.2");
+        document.formname.subcategory.options[1]=new Option("Quiero una Cuenta/Plan","value3.2");
+        break;
+    case "Cuenta Vista" :
+        break;
+
+    case "En el Extranjero" :
+        break;
+
+    case "Fiscalía" :
+        break;
+
+
+    case "Inversiones" :
+        document.formname.subcategory.options[0]=new Option("Acciones","value3.1");
+        document.formname.subcategory.options[1]=new Option("Ahorro Automático Mensual","value3.2");
+        document.formname.subcategory.options[1]=new Option("APV","value3.2");
+        document.formname.subcategory.options[1]=new Option("Depósitos a Plazo","value3.2");
+        document.formname.subcategory.options[1]=new Option("Depósitos Convenidos","value3.2");
+        document.formname.subcategory.options[1]=new Option("Dólares","value3.2");
+        document.formname.subcategory.options[1]=new Option("Fondos Mutuos a Plazo","value3.2");
+        document.formname.subcategory.options[1]=new Option("Gestión Activa","value3.2");
+        break;
+
+    case "Obligaciones/Garantías" :
+        break;
+
+    case "Otras Consultas" :
+        document.formname.subcategory.options[0]=new Option("Definiciones instrumentos e índices","value3.1");
+        document.formname.subcategory.options[1]=new Option("Mis Datos","value3.2");
+        break;
+    case "Productos ING" :
+        document.formname.subcategory.options[0]=new Option("Confirming","value3.1");
+        document.formname.subcategory.options[1]=new Option("Factoring","value3.2");
+        document.formname.subcategory.options[1]=new Option("Leasing","value3.2");
+        break;
+
+    case "Seguros" :
+        document.formname.subcategory.options[0]=new Option("Quiero un Seguro","value3.1");
+        document.formname.subcategory.options[1]=new Option("Renuncia","value3.2");
+        document.formname.subcategory.options[1]=new Option("Siniestros","value3.2");
+        break;
+
+    case "Select (Global Value)" :
+        break;
+
+    case "Tarjeta de Crédito" :
+        document.formname.subcategory.options[0]=new Option("Beneficios","value3.1");
+        document.formname.subcategory.options[1]=new Option("Funcionamiento Tarjeta de Crédito","value3.2");
+        document.formname.subcategory.options[1]=new Option("Problemas con Tarjeta de Crédito","value3.2");
+        document.formname.subcategory.options[1]=new Option("Quiero una Tarjeta","value3.2");
+        break;
+
+    case "Tarjeta Débito" :
+        document.formname.subcategory.options[0]=new Option("Beneficios","value3.1");
+        document.formname.subcategory.options[1]=new Option("Funcionamiento de la Tarjeta Débito","value3.2");
+        break;
+
+    case "Universitarios" :
+        document.formname.subcategory.options[0]=new Option("Quiero una Cuenta Corriente Universitaria","value3.1");
+        document.formname.subcategory.options[1]=new Option("Quiero una TUI","value3.2");
+        break;
+
+    case "Vale Vista" :
+        document.formname.subcategory.options[0]=new Option("Cobrar","value3.1");
+        document.formname.subcategory.options[1]=new Option("Consultar","value3.2");
+        document.formname.subcategory.options[1]=new Option("Emitir","value3.2");
+        document.formname.subcategory.options[1]=new Option("Problemas con Vale Vista","value3.2");
+        break;
+    default:
+        document.formname.subcategory.options[0]=new Option("Selecciona categoría")
+        break;
+}
+return true;
+}
+</script>
+</head>
+
+<title>Mantenedor</title>
+
+<body>
+
+<form id="formname" name="formname" method="post" action="submitform.asp" >
+<table width="50%" border="0" cellspacing="0" cellpadding="5">
+<tr>
+<td width="41%" align="right" valign="middle">Categoría :</td>
+<td width="59%" align="left" valign="middle"><select name="category" id="category" onchange="dropdownlist(this.options[this.selectedIndex].value);">
+<option value="">Selecciona categoría</option>
+<option value="acreencias bancarias">acreencias bancarias</option>
+<option value="Ayuda">Ayuda</option>
+<option value="Cheques">Cheques</option>
+<option value="Canales de Atención">Canales de Atención</option>
+<option value="Cheques">Cheques</option>
+<option value="Claves">Claves</option>
+<option value="Cobranzas">Cobranzas</option>
+<option value="Credencial Virtual">Credencial Virtual</option>
+<option value="Crédito Hipotecario">Crédito Hipotecario</option>
+<option value="Créditos">Créditos</option>
+<option value="Cuenta Corriente">Cuenta Corriente</option>
+<option value="Cuenta Vista">Cuenta Vista</option>
+<option value="En el Extranjero">En el Extranjero</option>
+<option value="Fiscalía">Fiscalía</option>
+<option value="Inversiones">Inversiones</option>
+<option value="Obligaciones/Garantías">Obligaciones/Garantías</option>
+<option value="Otras Consultas">Otras Consultas</option>
+<option value="Productos ING">Productos ING</option>
+<option value="Seguros">Seguros</option>
+<option value="Select (Global Value)">Select (Global Value)</option>
+<option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+<option value="Tarjeta Débito">Tarjeta Débito</option>
+<option value="Universitarios">Universitarios</option>
+<option value="Vale Vista">Vale Vista</option>
+
+</select></td>
+</tr>
+<tr>
+<td align="right" valign="middle">SubCategoría
+</td>
+<td align="left" valign="middle"><script type="text/javascript" language="JavaScript">
+document.write('<select name="subcategory"><option value="">Selecciona subcategoría</option></select>')
+</script>
+<noscript><select name="subcategory" id="subcategory" >
+<option value="">Selecciona subcategoría</option>
+</select>
+</noscript></td>
+</tr>
+</table>
+
+</form> 
+
+
+</body>
+</html>
